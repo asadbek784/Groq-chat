@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: groq-chat
+    env: python
+    startCommand: python app.py
